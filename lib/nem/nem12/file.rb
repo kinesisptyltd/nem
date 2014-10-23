@@ -17,7 +17,7 @@ module NEM
       def parse_header
         @header = Header.new(
           version_identifier: enumerator.peek[1],
-          created_at: Time.parse(enumerator.peek[2]),
+          created_at: ActiveSupport::TimeZone[10].parse(enumerator.peek[2]),
           from_participant: enumerator.peek[3],
           to_participant: enumerator.peek[4]
         )
