@@ -1,7 +1,7 @@
 module NEM
   module NEM12
     # This class represents a data detail record. This record contains the META information
-    # related to the sub sequent records and applies until another data detail record occurs.
+    # related to the subsequent records and applies until another data detail record occurs.
     class DataDetail < Record
       def self.fields
         {

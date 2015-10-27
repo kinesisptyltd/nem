@@ -218,9 +218,6 @@ module NEM
       "Y" => { :stream => "Check",   :description => "Q Metering",                  :units => "Qh" },
       "W" => { :stream => "Check",   :description => "Par Metering Path",           :units => "" },
       "Z" => { :stream => "Check",   :description => "Volts or V2h or Amps or A2h", :units => "" },
-      # Net Meter Streams
-      "D" => { :stream => "Net",     :description => "Net",                         :units => "kWh" },
-      "J" => { :stream => "Net",     :description => "Net",                         :units => "kVArh" }
     }
   end
 end
